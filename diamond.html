@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #000; /* Black background color */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      color: #fff; /* Text color, you can change it */
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    .diamond {
+      font-size: 15em;
+      animation: pulse 1s infinite;
+    }
+
+    .quote {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="diamond">&#128142;</div>
+  <div class="quote">
+    <p>"In search of Best Friends I found a Diamond. Yes, it's you."</p>
+  </div>
+</body>
+</html>
